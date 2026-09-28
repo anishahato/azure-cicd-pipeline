@@ -1,0 +1,13 @@
+{
+  "name": "azure-cicd-sample-app",
+  "version": "1.0.0",
+  "description": "Sample web app deployed via Azure Pipelines -> ACR -> App Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/smoke-test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
